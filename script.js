@@ -1,4 +1,4 @@
-// ChatForge - Fake Chat Generator Logic
+// Fake Chat Generator - Logic
 document.addEventListener('DOMContentLoaded', () => {
     const inputName = document.getElementById('input-name');
     const inputStatus = document.getElementById('input-status');
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             const link = document.createElement('a');
-            link.download = `chatforge-${Date.now()}.png`;
+            link.download = `fake-chat-${Date.now()}.png`;
             link.href = canvas.toDataURL('image/png', 1.0);
             link.click();
         } catch (err) {
