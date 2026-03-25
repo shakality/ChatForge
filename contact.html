@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Support | ChatForge - Get Help with Chat Generation</title>
+    <meta name="description" content="Have questions or feature requests for ChatForge? Contact our support team for assistance with the world's best fake chat generator.">
+    <link rel="canonical" href="https://ais-pre-vatgi5mg3m3pp3osihfxws-23495064725.europe-west2.run.app/contact.html" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #050505;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: #fff; }
+        h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
+        .glass-card {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <nav class="glass-card sticky top-0 z-50 px-8 py-5 border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold tracking-tighter flex items-center gap-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"></path></svg>
+                </div>
+                ChatForge
+            </a>
+            <div class="hidden md:flex space-x-10 text-sm font-medium text-gray-400">
+                <a href="/" class="hover:text-white transition">Generator</a>
+                <a href="/about.html" class="hover:text-white transition">Mission</a>
+                <a href="/contact.html" class="hover:text-white transition text-white">Support</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-4xl mx-auto w-full px-6 py-24">
+        <div class="text-center mb-16">
+            <h1 class="text-6xl font-bold mb-6 tracking-tight">Get in Touch</h1>
+            <p class="text-xl text-gray-400">Have a question or a feature request? We'd love to hear from you.</p>
+        </div>
+
+        <div class="glass-card p-10 md:p-16 rounded-[48px] max-w-2xl mx-auto shadow-2xl">
+            <form class="space-y-8" onsubmit="event.preventDefault(); alert('Message sent! (Demo only)');">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-3">Full Name</label>
+                        <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:border-blue-500 transition">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-3">Email Address</label>
+                        <input type="email" required class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:border-blue-500 transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-3">Subject</label>
+                    <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div>
+                    <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-3">Message</label>
+                    <textarea required class="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:border-blue-500 transition h-40 resize-none"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-5 rounded-2xl transition shadow-xl shadow-blue-500/20 text-lg">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="glass-card py-12 px-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto text-center text-gray-500 text-[10px] uppercase tracking-widest font-bold">
+            &copy; 2026 ChatForge Engine
+        </div>
+    </footer>
+</body>
+</html>
